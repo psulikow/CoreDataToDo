@@ -16,6 +16,8 @@
 		DB703AA424C4B0AF006893B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB703AA224C4B0AF006893B1 /* LaunchScreen.storyboard */; };
 		DB703AAF24C4B0AF006893B1 /* CoreDataToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB703AAE24C4B0AF006893B1 /* CoreDataToDoTests.swift */; };
 		DB703ABA24C4B0AF006893B1 /* CoreDataToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB703AB924C4B0AF006893B1 /* CoreDataToDoUITests.swift */; };
+		DB88284D24C4B2E700323ECB /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88284C24C4B2E700323ECB /* ToDoItem.swift */; };
+		DB88284F24C4BA7600323ECB /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB88284E24C4BA7600323ECB /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DB703AB524C4B0AF006893B1 /* CoreDataToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB703AB924C4B0AF006893B1 /* CoreDataToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataToDoUITests.swift; sourceTree = "<group>"; };
 		DB703ABB24C4B0AF006893B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB88284C24C4B2E700323ECB /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		DB88284E24C4BA7600323ECB /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				DB703A9424C4B0AB006893B1 /* AppDelegate.swift */,
 				DB703A9624C4B0AB006893B1 /* SceneDelegate.swift */,
 				DB703A9B24C4B0AB006893B1 /* ContentView.swift */,
+				DB88284E24C4BA7600323ECB /* ToDoItemView.swift */,
+				DB88284C24C4B2E700323ECB /* ToDoItem.swift */,
 				DB703A9D24C4B0AF006893B1 /* Assets.xcassets */,
 				DB703AA224C4B0AF006893B1 /* LaunchScreen.storyboard */,
 				DB703AA524C4B0AF006893B1 /* Info.plist */,
@@ -271,7 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB703A9524C4B0AB006893B1 /* AppDelegate.swift in Sources */,
+				DB88284F24C4BA7600323ECB /* ToDoItemView.swift in Sources */,
 				DB703A9724C4B0AB006893B1 /* SceneDelegate.swift in Sources */,
+				DB88284D24C4B2E700323ECB /* ToDoItem.swift in Sources */,
 				DB703A9C24C4B0AB006893B1 /* ContentView.swift in Sources */,
 				DB703A9A24C4B0AB006893B1 /* CoreDataToDo.xcdatamodeld in Sources */,
 			);
